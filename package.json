@@ -1,6 +1,6 @@
 {
   "name": "screenshot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Faire des ScreenShot pour la clé TV",
   "repository": "https://github.com/MyApp/my-app",
   "homepage": "https://github.com/MyApp/my-app",
@@ -15,15 +15,19 @@
   "license": "ISC",
   "dependencies": {
     "dateformat": "^3.0.3",
+    "electron-alert": "^0.1.11",
+    "electron-log": "^4.2.4",
     "fs": "0.0.1-security",
     "node-fetch": "^2.6.1",
+    "node-notifier": "^8.0.0",
     "pixelmatch": "^5.2.1",
     "pngjs": "^6.0.0",
     "webshot-node": "^0.18.2"
   },
   "devDependencies": {
-    "electron-builder": "^22.9.1",
-    "electron": "10.1.5"
+    "devtron": "^1.4.0",
+    "electron": "10.1.5",
+    "electron-builder": "^22.9.1"
   },
   "build": {
     "mac": {
